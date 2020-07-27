@@ -4,7 +4,7 @@
 H2 console:
 -----------
 
-URL ot access the H2 console: http://localhost:8080/h2-console
+URL to access the H2 console: http://localhost:8080/h2-console
 
 In order to access H2 console:
 
