@@ -21,4 +21,6 @@ Once in H2 console the url datasource can be found in the IDE console as:
   a property can be set in the application.properties file as follow: spring.datasource.url=jdbc:h2:mem:ariel
   
   
-  #NOTE: it is mandatory to add the JPA dependency when adding H2, if not added the /h2-console does not work.
+  #NOTE1: it is mandatory to add the JPA dependency when adding H2, if not added the /h2-console does not work.
+  
+  #NOTE2: when using H2 with spring security it is necessary to add the following in the configure method "http.headers().frameOptions().disable();", otherwise the H2 console will not load.
